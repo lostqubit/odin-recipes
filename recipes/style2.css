@@ -1,12 +1,22 @@
+*{
+    box-sizing: border-box;
+}
+
 body{
-    background-color: #FCFFE0;
+    background-color: #F5DAD2;
     font-size: 18px;
     font-family: Helvetica;
 }
 
+.card{
+    width:900px;
+    margin: 30px auto;
+    background-color: #FCFFE0;
+}
+
 h1{
     text-align: center;
-    background-color: #F5DAD2;
+    background-color: #BACD92;
     font-family: "Brush Script MT";
     font-size: 60px;
 }
@@ -14,11 +24,16 @@ h1{
 h2{
     font-family: "Georgia";
     font-size: 30px;
+    margin: 20px 10px;
+    background-color: #BACD92;
+    text-align: center;
 }
 
-h3{
+.list-container h3{
     font-family: "Georgia";
-    font-size:20px;;
+    font-size:20px;
+    margin:0px;
+    text-align: center;
     
 }
 
@@ -31,16 +46,25 @@ img{
     height: auto;
 }
 
+p{
+    margin: 20px;
+}
+
+.last-block{
+    display: inline-block;
+    margin: 0px 20px 20px;
+    width: 860px;
+}
+
 .list-container{
-    text-align: left;
+    display: inline-block;
+    width: 427px;
+    height: 250px;
+    vertical-align: top;
+    border: 2px black solid;
 }
 
-ul{
-    display: inline-block;
-    text-align: left;
+li::marker{
+    color:#75A47F;
 }
 
-ol{
-    display: inline-block;
-    text-align: left;
-}

@@ -1,21 +1,40 @@
+*{
+    box-sizing: border-box;
+}
+
 body{
+    background-color: #F5DAD2;
+    
+}
+
+.card{
+    width: 600px;
+    height: 500px;
+    margin: 50px auto;
     background-color: #FCFFE0;
 }
 
+
 h1{
-    text-align: center;
-    background-color: #F5DAD2;
+    display: inline-block;
+    width: 580px;
+    margin: 10px 10px 10px 10px;
+    color: black;
+    background-color: #BACD92;
     font-family: "Brush Script MT";
     font-size: 60px;
-}
-
-div{
     text-align: center;
 }
 
+
 ul{
-    display:inline-block;
-    text-align: left;
+    display: block;
+    width: 300px;
+    margin: 10px 150px;
     font-size: 25px;
     font-family: "Georgia";
+}
+
+li::marker{
+    color: #75A47F;
 }
