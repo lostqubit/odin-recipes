@@ -1,0 +1,46 @@
+body{
+    background-color: #FCFFE0;
+    font-size: 18px;
+    font-family: Helvetica;
+}
+
+h1{
+    text-align: center;
+    background-color: #F5DAD2;
+    font-family: "Brush Script MT";
+    font-size: 60px;
+}
+
+h2{
+    font-family: "Georgia";
+    font-size: 30px;
+}
+
+h3{
+    font-family: "Georgia";
+    font-size:20px;;
+    
+}
+
+.img-container{
+    text-align: center;
+}
+
+img{
+    width: 512px;
+    height: auto;
+}
+
+.list-container{
+    text-align: left;
+}
+
+ul{
+    display: inline-block;
+    text-align: left;
+}
+
+ol{
+    display: inline-block;
+    text-align: left;
+}

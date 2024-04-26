@@ -1,0 +1,21 @@
+body{
+    background-color: #FCFFE0;
+}
+
+h1{
+    text-align: center;
+    background-color: #F5DAD2;
+    font-family: "Brush Script MT";
+    font-size: 60px;
+}
+
+div{
+    text-align: center;
+}
+
+ul{
+    display:inline-block;
+    text-align: left;
+    font-size: 25px;
+    font-family: "Georgia";
+}
